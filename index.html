@@ -1,0 +1,174 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <meta charset="UTF-8">
+    <style>
+        @page { size: A4; margin: 10mm 15mm; }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #2c3e50; line-height: 1.4; font-size: 10pt; margin: 0; padding: 0;
+        }
+        .page-container { max-width: 900px; margin: auto; padding: 0 40px; background: white; }
+        .header-section { border-bottom: 2px solid #2c3e50; padding-bottom: 10px; margin-bottom: 10px; text-align: center; }
+        h1 { margin: 0; color: #2c3e50; font-size: 24pt; text-transform: uppercase; letter-spacing: 1px; }
+        
+        .contact-bar { 
+            margin-top: 8px; 
+            display: block; 
+            text-align: center;
+            font-size: 9pt; 
+            color: #555; 
+        }
+        .contact-bar span { margin: 0 8px; }
+        .contact-bar a { color: #555; text-decoration: none; }
+
+        .summary { margin: 10px 0; text-align: justify; color: #34495e; font-size: 10pt; line-height: 1.4; }
+        
+        h2 { color: #2c3e50; font-size: 12pt; border-bottom: 1px solid #bdc3c7; padding-bottom: 2px; margin: 15px 0 8px 0; text-transform: uppercase; letter-spacing: 0.5px; }
+        .job-entry { margin-bottom: 10px; }
+        .job-header { display: flex; justify-content: space-between; font-weight: bold; font-size: 10.5pt; }
+        .company { font-style: italic; color: #7f8c8d; margin-bottom: 2px; font-size: 10pt; }
+        ul { margin-top: 2px; padding-left: 18px; }
+        li { margin-bottom: 3px; }
+        
+        .skills-table { width: 100%; border-collapse: collapse; margin-top: 4px; }
+        .skills-table td { padding: 2px 0; vertical-align: top; }
+        .skill-cat { font-weight: bold; width: 100px; color: #2c3e50; }
+        
+        .bottom-grid {
+            display: table;
+            width: 100%;
+            margin-top: 10px;
+        }
+        .bottom-column {
+            display: table-cell;
+            width: 50%;
+            vertical-align: top;
+            padding-right: 15px;
+        }
+        .pub-item, .activity-item, .cert-item { margin-bottom: 5px; font-size: 9.5pt; }
+
+        @media print { .page-container { padding: 0; } }
+    </style>
+</head>
+<body>
+    <div class="page-container">
+        <div class="header-section">
+            <h1>Chao-Jen Wong, Ph.D.</h1>
+            <div class="contact-bar">
+                <span><i class="fa-solid fa-envelope"></i> <a href="mailto:chaochaowong@gmail.com">chaochaowong@gmail.com</a></span>
+                <span><i class="fa-brands fa-linkedin"></i> <a href="https://www.linkedin.com/in/chao-jen-wong/">LinkedIn</a></span>
+                <span><i class="fa-brands fa-github"></i> <a href="https://github.com/chaochaowong">GitHub</a></span>
+                <span><i class="fa-solid fa-house"></i> Seattle, Washington</span>
+            </div>
+        </div>
+
+        <div class="summary">Accomplished bioinformatician with 15+ years of experience in genomic data analysis, software development, and workflow engineering. Ph.D. in Applied Mathematics with expertise in computational genomics, epigenomics, statistical analysis, and pipeline development for NGS and long-read sequencing data. Proficient in R/Bioconductor, Nextflow, and Git, with experience in Python, Svelte, SQLite, MATLAB, HPC, AWS EC2, and Docker/Singularity. Interested in building robust genomic data ecosystems that turn research workflows into reproducible, scalable, and portable systems.</div>
+
+        <h2>Technical Skills</h2>
+        <table class="skills-table">
+            <tr><td class="skill-cat">Languages:</td><td>R (Package Development, Bioconductor), Python, SQL, MATLAB, Bash</td></tr>
+            <tr><td class="skill-cat">Workflows:</td><td>Nextflow, Git, Docker/Singularity</td></tr>
+            <tr><td class="skill-cat">Genomics:</td><td>Fiber-seq, scRNA-seq, RNA-seq, ATAC-seq, ChIP-seq, CUT&RUN, Ribo-seq, DNA Methylation, Variant Calling, Proteomics</td></tr>
+        </table>
+
+        <h2>Professional Experience</h2>
+        <div class="job-entry">
+            <div class="job-header"><span>Bioinformatician</span><span>Oct 2023 – Present</span></div>
+            <div class="company">Seattle Children's Research Institute</div>
+            <ul>
+                <li>Architected and extended the open-source nf-core/pacvar (v1.1.0dev) pipeline for PacBio long-read HiFi WGS data, integrating structural variant calling, variant annotation, 5mC methylation profiling modules, and Fiber-seq workflows.</li>
+                <li>Developed and validated PacBio long-read WGS for pediatric cancer diagnostics, supporting a transition from multiple standard genomic sequencing and molecular assays to a single comprehensive long-read WGS approach.</li>
+                <li>Authored 'talusR', a high-performance R package that automates TalusBio mass-spectrum proteomics (DIA-NN) from data wrangling to differential analysis in a three-command workflow.</li>
+                <li>Led bioinformatics analyses for multi-omics cancer research projects, including studies of BMS inhibitor mechanisms, chromatin landscape alterations in ZNF384-rearranged leukemia, and anthracycline efficacy in acute leukemia and sarcoma.</li>
+                <li>Developed 'peakable', an R package for CUT&RUN QC using cosine similarity and embedding-matrix-based PCA, providing more sensitive replicate assessment than traditional whole-genome methods.</li>
+            </ul>
+        </div>
+        
+        <div class="job-entry">
+            <div class="job-header"><span>Bioinformatician III</span><span>Oct 2015 – Jun 2023</span></div>
+            <div class="company">Tapscott Lab, Human Biology Department, Fred Hutchinson Cancer Center</div>
+            <ul>
+                <li>Led data analysis for a cross-functional initiative that discovered the primary disease progression mechanisms in FSHD, published in Human Molecular Genetics.</li>
+                <li>Identified the first validated panels of gene signatures representing FSHD molecular activity, setting the industry standard for post-therapeutic clinical trial measurements.</li>
+                <li>Pioneered research proving immune cell infiltration in FSHD-affected muscle, shifting the scientific understanding of the disease's systemic progression.</li>
+                <li>Engineered scalable data preprocessing pipelines for RNA-seq, ChIP-seq, ATAC-seq, CUT&RUN, and Ribo-seq.</li>
+                <li>Founded and led a peer-to-peer data science community at Fred Hutch, growing membership from 32 to over 250 scientists within a year.</li>
+            </ul>
+        </div>
+        
+        <div class="job-entry">
+            <div class="job-header"><span>Bioinformatics Analyst II</span><span>Oct 2011 – Oct 2015</span></div>
+            <div class="company">Grady Lab, Clinical Research Division, Fred Hutch Cancer Center</div>
+            <ul>
+                <li>Performed DNA methylation profiling with Illumina 450K arrays and contributed to the first published study reporting human colon DNA methylation profiles in colon adenocarcinoma; classified colon adenocarcinoma subtypes using machine learning algorithms.</li>
+                <li>Contributed to two peer-reviewed studies on DNA methylation-based modeling of the human biological clock and epidemiologic analysis of cigarette smoking associations with prostate cancer outcomes.</li>
+            </ul>
+        </div>
+
+        <div class="job-entry">
+            <div class="job-header"><span>Bioconductor Core Developer</span><span>Sep 2008 – Sep 2011</span></div>
+            <div class="company">Gentleman Lab, Computational Biology Program, Fred Hutchinson Cancer Center</div>
+            <ul>
+                <li>Contributed to the core infrastructure of Bioconductor for genomic data analysis and visualization.</li>
+                <li>Developed novel algorithms for multi-channel flow cytometry normalization using functional data analysis.</li>
+                <li>Served as a lead reviewer for over 50+ Bioconductor package submissions, enforcing rigorous standards for statistical validity and software quality.</li>
+            </ul>
+        </div>
+
+        <div class="job-entry">
+            <div class="job-header"><span>Postdoctoral Researcher</span><span>Aug 2007 – May 2008</span></div>
+            <div class="company">San Diego State University</div>
+            <ul><li>Research fields included numerical methods for solving partial differential equations and microarray analysis investigating the links of antidiabetic medication to cardiovascular disease.</li></ul>
+        </div>
+
+        <div class="job-entry">
+            <div class="job-header"><span>Analytic Consultant</span><span>Apr 2006 – Jan 2007</span></div>
+            <div class="company">Pacific Nanotechnology (Contract)</div>
+            <ul><li>Developed Atomic Force Microscopy tip deconvolution and image reconstruction algorithms to correct imaging artifacts caused by imperfect probe-tip geometry, resulting in a peer-reviewed publication.</li></ul>
+        </div>
+
+        <div class="job-entry">
+            <div class="job-header"><span>Academic Part-Time Engineer</span><span>Apr 2000 – Sep 2005</span></div>
+            <div class="company">Jet Propulsion Laboratory</div>
+            <ul><li>Developed high-fidelity Telecommunication Forecaster Predictor (TFP) software in MATLAB to simulate communication links for Mars Rover and Deep Impact missions.</li><li>Co-authored volumes in JPL's Deep Space Communications and Navigation Center of Excellence (DESCONSO) book series.</li></ul>
+        </div>
+
+        <h2>Education</h2>
+        <div class="job-entry">
+            <div class="job-header"><span>Ph.D. & M.S. in Mathematics</span><span>2001 – 2006</span></div>
+            <div class="company">Claremont Graduate University</div>
+            <div style="font-size: 9.5pt; color: #555;">Relevant coursework: statistical inference, time series analysis, and partial differential equations.</div>
+            <div style="font-size: 9.5pt; color: #555;">Thesis: Simulation of Immobilized Enzyme Kinetics and Transport in Sessile Hydrogen Drops. Adviser: Ali Nadim.</div>
+        </div>
+        <div class="job-entry">
+            <div class="job-header"><span>M.A. & B.A. in Applied Mathematics</span><span>1996 – 2000</span></div>
+            <div class="company">California State University, Fullerton</div>
+        </div>
+
+        <h2>Recent Publications</h2>
+        <div class="pub-item">• Wong CJ, et al. Regional and bilateral MRI and gene signatures in facioscapulohumeral dystrophy. Human Molecular Genetics. 2024;33(8):698-708.</div>
+        <div class="pub-item">• Hamm DC, Paatela EM, Bennett SR, Wong C-J, et al. The transcription factor DUX4 orchestrates translational reprogramming. PLOS Biology. 2023;21(9):e3002317.</div>
+        <div class="pub-item">• Wong CJ, et al. Canine DUXC: implications for DUX4 retrotransposition and preclinical models of FSHD. Human Molecular Genetics. 2022;31(10):1694–1704.</div>
+        <div class="pub-item">• Wong CJ, et al. Longitudinal measures of RNA expression and disease activity in FSHD muscle biopsies. Human Molecular Genetics. 2020;29(6):1030-1043.</div>
+
+        <div class="bottom-grid">
+            <div class="bottom-column">
+                <h2 style="margin-top:0;">Professional Activities</h2>
+                <div class="activity-item">• Nextflow Ambassador, 2026.</div>
+                <div class="activity-item">• Poster presenter, Nextflow Summit Boston, 2026.</div>
+                <div class="activity-item">• Contributor to nf-core/modules and participant in Nextflow Hackathons, 2024-2026.</div>
+            </div>
+            <div class="bottom-column">
+                <h2 style="margin-top:0;">Coursera Certifications</h2>
+                <div class="cert-item">• Sequence Models (DeepLearning.AI)</div>
+                <div class="cert-item">• Convolutional Neural Networks (DeepLearning.AI)</div>
+                <div class="cert-item">• Neural Networks and Deep Learning (DeepLearning.AI)</div>
+                <div class="cert-item">• Applied Machine Learning in Python (U. Michigan)</div>
+                <div class="cert-item">• SQL Basics for Data Science Specialization (UC Davis)</div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
