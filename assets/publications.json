@@ -1,6 +1,6 @@
 {
   "checked": "2026-10-07",
-  "source": "Europe PMC / PubMed",
+  "source": "Europe PMC / PubMed; Springer / Crossref; CGU dissertation listing",
   "articles": [
     {
       "id": "38268317",
@@ -546,6 +546,21 @@
         },
         "printPublicationDate": "2010-02-01"
       }
+    },
+    {
+      "source": "Springer / Crossref",
+      "pubYear": "2007",
+      "title": "Tip dilation and AFM capabilities in the characterization of nanoparticles",
+      "authorString": "Wong Ch., West PE, Olson KS, Mecartney ML, Starostina N.",
+      "doi": "10.1007/s11837-007-0003-x",
+      "pageInfo": "12-16",
+      "journalInfo": {
+        "volume": "59",
+        "issue": "1",
+        "journal": {
+          "title": "JOM"
+        }
+      }
     }
   ],
   "corrections": [
@@ -573,6 +588,22 @@
         },
         "printPublicationDate": "2017-01-01"
       }
+    }
+  ],
+  "coverage": {
+    "from": 2006,
+    "through": 2026,
+    "dissertationIncludedSeparately": true
+  },
+  "dissertations": [
+    {
+      "title": "An embedding method for simulation of immobilized enzyme kinetics and transport in sessile hydrogel drops",
+      "authorString": "Chao-Jen Wong",
+      "institution": "Claremont Graduate University",
+      "adviser": "Ali Nadim",
+      "sourceUrl": "https://research.cgu.edu/ims/dissertations/",
+      "pubYear": "2006",
+      "yearNote": "Year confirmed by Chao-Jen Wong."
     }
   ]
 }

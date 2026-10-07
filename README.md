@@ -25,6 +25,6 @@ The supplied `L0` was interpreted as `K0`, and `co` as `C0`. Print appearance de
 
 ## Publication sources
 
-Checked October 7, 2026 against Europe PMC and PubMed, using full author names and affiliations to exclude other researchers with the initials CJ. Each entry links to its public record. Preprint versions of published papers are omitted. Conference records and the resume-listed manuscript are separated from journal articles. Recent or unindexed work may be missing; this is not a claim of exhaustive coverage.
+Checked October 7, 2026 against Europe PMC and PubMed, using full author names and affiliations to exclude other researchers with the initials CJ. The 2007 AFM article was checked against Springer and Crossref; the dissertation links to CGU’s listing. The dissertation year is 2006, as confirmed by Chao-Jen Wong. Each entry links to its public record. Preprint versions of published papers are omitted. Conference records and the resume-listed manuscript are separated from journal articles. Recent or unindexed work may be missing; this is not a claim of exhaustive coverage.
 
 The portrait was copied from the supplied local `cjwong.jpg` image. No build tools or external runtime dependencies are required.
