@@ -529,3 +529,13 @@ footer div {
     scroll-behavior: auto;
   }
 }
+
+.career-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 18px;
+}
+.career-links .button {
+  margin-top: 0;
+}
