@@ -1,176 +1,132 @@
-
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
-    <meta charset="UTF-8">
-    <style>
-        @page { size: A4; margin: 10mm 15mm; }
-        body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            color: #2c3e50; line-height: 1.4; font-size: 10pt; margin: 0; padding: 0;
-        }
-        .page-container { max-width: 900px; margin: auto; padding: 0 40px; background: white; }
-        .header-section { border-bottom: 2px solid #2c3e50; padding-bottom: 10px; margin-bottom: 10px; text-align: center; }
-        h1 { margin: 0; color: #2c3e50; font-size: 24pt; text-transform: uppercase; letter-spacing: 1px; }
-        
-        .contact-bar { 
-            margin-top: 8px; 
-            display: block; 
-            text-align: center;
-            font-size: 9pt; 
-            color: #555; 
-        }
-        .contact-bar span { margin: 0 8px; }
-        .contact-bar a { color: #555; text-decoration: none; }
-
-        .summary { margin: 10px 0; text-align: justify; color: #34495e; font-size: 10pt; line-height: 1.4; }
-        
-        h2 { color: #2c3e50; font-size: 12pt; border-bottom: 1px solid #bdc3c7; padding-bottom: 2px; margin: 15px 0 8px 0; text-transform: uppercase; letter-spacing: 0.5px; }
-        .job-entry { margin-bottom: 10px; }
-        .job-header { display: flex; justify-content: space-between; font-weight: bold; font-size: 10.5pt; }
-        .company { font-style: italic; color: #7f8c8d; margin-bottom: 2px; font-size: 10pt; }
-        ul { margin-top: 2px; padding-left: 18px; }
-        li { margin-bottom: 3px; }
-        
-        .skills-table { width: 100%; border-collapse: collapse; margin-top: 4px; }
-        .skills-table td { padding: 2px 0; vertical-align: top; }
-        .skill-cat { font-weight: bold; width: 100px; color: #2c3e50; }
-        
-        .bottom-grid {
-            display: table;
-            width: 100%;
-            margin-top: 10px;
-        }
-        .bottom-column {
-            display: table-cell;
-            width: 50%;
-            vertical-align: top;
-            padding-right: 15px;
-        }
-        .pub-item, .activity-item, .cert-item { margin-bottom: 5px; font-size: 9.5pt; }
-
-        @media print { .page-container { padding: 0; } }
-    </style>
-</head>
-<body>
-    <div class="page-container">
-        <div class="header-section">
-            <h1>Chao-Jen Wong, Ph.D.</h1>
-            <div class="contact-bar">
-                <span><i class="fa-solid fa-envelope"></i> <a href="mailto:chaochaowong@gmail.com">chaochaowong@gmail.com</a></span>
-                <span><i class="fa-brands fa-linkedin"></i> <a href="https://www.linkedin.com/in/chao-jen-wong/">LinkedIn</a></span>
-                <span><i class="fa-brands fa-github"></i> <a href="https://github.com/chaochaowong">GitHub</a></span>
-                <span><i class="fa-solid fa-house"></i> Seattle, Washington</span>
-            </div>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>About | Chao-Jen Wong</title>
+    <meta
+      name="description"
+      content="Chao-Jen Wong — senior bioinformatician. Genomics, epigenomics, scientific software, and open-source workflows."
+    />
+    <link rel="stylesheet" href="assets/site.css" />
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+  </head>
+  <body>
+    <a class="skip" href="#main">Skip to content</a>
+    <header class="site-header">
+      <a class="monogram" href="index.html" aria-label="CJW — home"
+        >CJW<span></span
+      ></a>
+      <nav aria-label="Main navigation">
+        <a href="index.html" aria-current="page">About</a
+        >
+        <a href="publications.html">Publications</a
+        >
+        <a href="education.html">Education</a
+        >
+        <a href="open-resources.html">Open resources</a>
+        <a href="cjw-resume-bioinfo-2026.html">Resume</a
+        >
+      </nav>
+    </header>
+    <main id="main">
+      <section class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow">BIOINFORMATICS · GENOMICS · OPEN SCIENCE</p>
+          <h1>Chao-Jen<br />Wong<span class="period">.</span></h1>
+          <p class="role">Senior bioinformatician</p>
+          <p class="intro">
+            I turn complex genomic data into insights that reveal disease
+            mechanisms and guide therapeutic research.
+          </p>
+          <p>
+            With 15+ years in genomics and epigenomics and a Ph.D. in
+            Mathematics, I partner with scientists on long-read sequencing,
+            integrated multi-omic analysis, and reproducible Nextflow workflows.
+          </p>
+          <a class="button" href="cjw-resume-bioinfo-2026.html"
+            >View my resume</a
+          >
         </div>
-
-        <div class="summary">Accomplished bioinformatician with 15+ years of experience in genomic and epigenomic data analysis, software development, and workflow engineering. Ph.D. in Applied Mathematics with expertise in computational genomics, epigenomics, statistical analysis, and pipeline development for NGS and long-read WGS data. Experienced in building reproducible, scalable, and portable genomic data ecosystems and integrating AI-agentic skills into bioinformatics workflows. Brings a change-ready mindset and the ability to adopt and apply new technologies to evolving scientific and computational challenges.</div>
-
-        <h2>Technical Skills</h2>
-        <table class="skills-table">
-            <tr><td class="skill-cat">Languages:</td><td>R (Package Development, Bioconductor), Python (Pandas, Scikit-Learn, TensorFlow), SQL, MATLAB, Bash</td></tr>
-            <tr><td class="skill-cat">Workflows:</td><td>Nextflow, Agentic workflow, Git, Docker/Singularity, AWS/EC2, HPC</td></tr>
-            <tr><td class="skill-cat">Genomics:</td><td>Fiber-seq, long-reads, scRNA-seq, RNA-seq, ATAC-seq, ChIP-seq, CUT&RUN, Ribo-seq, DNA methylation, variant calling, chromatin structure, proteomics</td></tr>
-        </table>
-
-        <h2>Professional Experience</h2>
-        <div class="job-entry">
-            <div class="job-header"><span>Sr. Bioinformatician</span><span>Oct 2023 – Present</span></div>
-            <div class="company">Seattle Children's Research Institute, Seattle, WA</div>
-            <ul>
-                <li>Architected and extended the open-source Nextflow nf-core/pacvar (v1.1.0) pipeline—a globally recognized, industry-grade workflow ecosystem trusted across pharma and academia—enabling comprehensive variant calling and multi-omic methylation profiling for PacBio long-read WGS data.</li>
-                <li>Engineered and validated an AI-assisted long-read WGS diagnostic workflow for pediatric cancers, consolidating months-long testing across 10+ molecular assays into a single rapid test that increased diagnostic yield and enabled timely precision treatment decisions.</li>
-                <li>Uncovered the epigenetic adaptational landscape of sarcoma cells under BRD4 inhibition, identifying H3K27ac recruitment as the key mechanism triggering downstream mesenchymal shift and axonogenesis.</li>
-                <li>Challenged a decades-old paradigm in cancer therapy by proving anthracyclines suppress aggressive leukemias through translation inhibition rather than DNA damage—a discovery enabled by integrating multi-omic and high-throughput drug screening datasets.</li>
-                <li>Engineered R packages like <em>talusR</em> and <em>peakable</em> to automate proteomics profiling and CUT&RUN replicate validation, eliminating technical noise and preventing false-positive biological conclusions in multi-omic workflows.</li>
-            </ul>
+        <figure class="portrait">
+          <img
+            src="assets/cjwong.jpg"
+            alt="Chao-Jen Wong"
+            width="600"
+            height="750"
+          />
+          <figcaption>Chao-Jen Wong · Seattle, WA</figcaption>
+        </figure>
+      </section>
+      <section class="career">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">A PATH THROUGH SCIENCE</p>
+            <h2>Experience, connected.</h2>
+          </div>
+          <p>
+            From deep-space communications to<br />computational biology and
+            pediatric cancer.
+          </p>
         </div>
-        
-        <div class="job-entry">
-            <div class="job-header"><span>Bioinformatician III</span><span>Oct 2015 – Jun 2023</span></div>
-            <div class="company">Tapscott Lab, Human Biology Department, Fred Hutchinson Cancer Center, Seattle, WA</div>
-            <ul>
-                <li>Led data-driven research for a cross-functional initiative that discovered the primary disease progression mechanisms in facioscapulohumeral muscular dystrophy (FSHD), published in Human Molecular Genetics.</li>
-                <li>Identified the first validated panels of gene signatures representing FSHD molecular activity, setting the industry standard for post-therapeutic clinical trial measurements.</li>
-                <li>Pioneered research demonstrating immune cell infiltration in FSHD-affected muscle, shifting the scientific understanding of the disease's systemic progression.</li>
-                <li>Founded and led a peer-to-peer data science community at Fred Hutch, growing membership from 32 to over 250 scientists within a year.</li>
-            </ul>
-        </div>
-        
-        <div class="job-entry">
-            <div class="job-header"><span>Bioinformatics Analyst II</span><span>Oct 2011 – Oct 2015</span></div>
-            <div class="company">Grady Lab, Clinical Research Division, Fred Hutch Cancer Center, Seattle, WA</div>
-            <ul>
-                <li>Contributed to the first published study reporting human colon DNA methylation profiles and subtype classification in colon adenocarcinoma, using Illumina 450K array-based methylation profiling. </li>
-                <li>Collaborated on two peer-reviewed studies on DNA methylation-based modeling of the human biological clock and epidemiologic analysis of cigarette smoking associations with prostate cancer outcomes.</li>
-            </ul>
-        </div>
-
-        <div class="job-entry">
-            <div class="job-header"><span>Bioconductor Core Developer</span><span>Sep 2008 – Sep 2011</span></div>
-            <div class="company">Gentleman Lab, Computational Biology Program, Fred Hutchinson Cancer Center, Seattle, WA</div>
-            <ul>
-                <li>Contributed to the core infrastructure of Bioconductor for genomic data analysis and visualization.</li>
-                <li>Developed novel algorithms for multi-channel flow cytometry normalization using functional data analysis.</li>
-                <li>Served as a lead reviewer for 50+ Bioconductor package submissions, enforcing rigorous standards for statistical validity and software quality.</li>
-            </ul>
-        </div>
-
-        <div class="job-entry">
-            <div class="job-header"><span>Postdoctoral Researcher</span><span>Aug 2007 – May 2008</span></div>
-            <div class="company">San Diego State University, San Diego, CA</div>
-            <ul>
-                <li>Research fields included numerical methods for solving partial differential equations and microarray analysis investigating associations between antidiabetic medications and cardiovascular disease.</li>
-            </ul>
-        </div>
-
-        <div class="job-entry">
-            <div class="job-header"><span>Analytic Consultant</span><span>Apr 2006 – Jan 2007</span></div>
-            <div class="company">Pacific Nanotechnology (Contract), Irvine, CA</div>
-            <ul><li>Developed atomic force microscopy tip deconvolution and image reconstruction algorithms to correct imaging artifacts caused by imperfect probe-tip geometry, resulting in a peer-reviewed publication.</li></ul>
-        </div>
-
-        <div class="job-entry">
-            <div class="job-header"><span>Academic Part-Time Engineer</span><span>Apr 2000 – Sep 2005</span></div>
-            <div class="company">Jet Propulsion Laboratory, Pasadena, CA</div>
-            <ul><li>Developed high-fidelity Telecom Forecaster Predictor (TFP) software in MATLAB to simulate deep-space communication links for NASA JPL missions, including the Mars Exploration Rovers Spirit and Opportunity.</li>
-                <li>Co-authored volumes in JPL's Deep Space Communications and Navigation Center of Excellence (DESCANSO) book series.</li></ul>
-        </div>
-
-        <h2>Education</h2>
-        <div class="job-entry">
-            <div class="job-header"><span>Ph.D. & M.S. in Mathematics</span><span>2001 – 2006</span></div>
-            <div class="company">Claremont Graduate University, Claremont, CA</div>
-            <div style="font-size: 9.5pt; color: #555;">Relevant coursework: statistical inference, time series analysis, and partial differential equations.</div>
-            <div style="font-size: 9.5pt; color: #555;">Thesis: Simulation of Immobilized Enzyme Kinetics and Transport in Sessile Hydrogen Drops. Adviser: Ali Nadim.</div>
-        </div>
-        <div class="job-entry">
-            <div class="job-header"><span>M.A. & B.A. in Applied Mathematics</span><span>1996 – 2000</span></div>
-            <div class="company">California State University, Fullerton, CA</div>
-        </div>
-
-        <h2>Recent Publications</h2>
-        <div class="pub-item">• Sadeeshkumar H, Wong CJ, et al. Anthracyclines target the chromatin-translation axis independent of DNA damage. Manuscript under review at <em>Nature</em>.</div>
-        <div class="pub-item">• Wong CJ, et al. Regional and bilateral MRI and gene signatures in facioscapulohumeral dystrophy. <em>Human Molecular Genetics</em>. 2024;33(8):698-708.</div>
-        <div class="pub-item">• Hamm DC, Paatela EM, Bennett SR, Wong CJ, et al. The transcription factor DUX4 orchestrates translational reprogramming. <em>PLOS Biology</em>. 2023;21(9):e3002317.</div>
-        <div class="pub-item">• Wong CJ, et al. Canine DUXC: implications for DUX4 retrotransposition and preclinical models of FSHD. <em>Human Molecular Genetics</em>. 2022;31(10):1694-1704.</div>
-
-        <div class="bottom-grid">
-            <div class="bottom-column">
-                <h2 style="margin-top:0;">Professional Activities</h2>
-                <div class="activity-item">• Nextflow Ambassador, 2026.</div>
-                <div class="activity-item">• Poster presenter, Nextflow Summit Boston, 2026.</div>
-                <div class="activity-item">• Contributor to nf-core and participant in Nextflow Hackathons, 2024-2026.</div>
-            </div>
-            <div class="bottom-column">
-                <h2 style="margin-top:0;">Coursera Certifications</h2>
-                <div class="cert-item">• Sequence Models (DeepLearning.AI)</div>
-                <div class="cert-item">• Convolutional Neural Networks (DeepLearning.AI)</div>
-                <div class="cert-item">• Neural Networks and Deep Learning (DeepLearning.AI)</div>
-                <div class="cert-item">• Applied Machine Learning in Python (U. Michigan)</div>
-                <div class="cert-item">• SQL Basics for Data Science Specialization (UC Davis)</div>
-            </div>
-        </div>
-    </div>
-</body>
+        <ol
+          class="timeline"
+          aria-label="Career flowchart in chronological order"
+        >
+          <li>
+            <span class="date">2000–2005</span>
+            <h3>Jet Propulsion Laboratory</h3>
+            <p>Academic Part-Time Engineer</p>
+            <span class="detail">Deep-space communication models</span>
+          </li>
+          <li>
+            <span class="date">2006–2007</span>
+            <h3>Pacific Nanotechnology</h3>
+            <p>Analytic Consultant</p>
+            <span class="detail">Image reconstruction algorithms</span>
+          </li>
+          <li>
+            <span class="date">2007–2008</span>
+            <h3>San Diego State University</h3>
+            <p>Postdoctoral Researcher</p>
+            <span class="detail">Numerical methods & microarray analysis</span>
+          </li>
+          <li>
+            <span class="date">2008–2011</span>
+            <h3>Bioconductor · Fred Hutch</h3>
+            <p>Core Developer · Gentleman Lab</p>
+            <span class="detail">Genomic software & flow cytometry</span>
+          </li>
+          <li>
+            <span class="date">2011–2015</span>
+            <h3>Fred Hutch · Grady Lab</h3>
+            <p>Bioinformatics Analyst II</p>
+            <span class="detail">Cancer epigenetics & DNA methylation</span>
+          </li>
+          <li>
+            <span class="date">2015–2023</span>
+            <h3>Fred Hutch · Tapscott Lab</h3>
+            <p>Bioinformatician III</p>
+            <span class="detail">FSHD mechanisms & molecular signatures</span>
+          </li>
+          <li class="current">
+            <span class="date">2023–PRESENT</span>
+            <h3>Seattle Children’s Research Institute</h3>
+            <p>Senior Bioinformatician</p>
+            <span class="detail"
+              >Pediatric cancer · long-read WGS · multi-omics</span
+            >
+          </li>
+        </ol>
+      </section>
+    </main>
+    <footer>
+      <span>Chao-Jen Wong · Seattle, Washington</span>
+      <div>
+        <a href="mailto:chaochaowong@gmail.com">Email</a
+        ><a href="https://github.com/chaochaowong">GitHub</a
+        ><a href="https://www.linkedin.com/in/chao-jen-wong/">LinkedIn</a>
+      </div>
+    </footer>
+  </body>
 </html>

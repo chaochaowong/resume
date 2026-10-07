@@ -1,0 +1,578 @@
+{
+  "checked": "2026-10-07",
+  "source": "Europe PMC / PubMed",
+  "articles": [
+    {
+      "id": "38268317",
+      "source": "MED",
+      "pubYear": "2024",
+      "title": "Regional and bilateral MRI and gene signatures in facioscapulohumeral dystrophy: implications for clinical trial design and mechanisms of disease progression.",
+      "authorString": "Wong CJ, Friedman SD, Snider L, Bennett SR, Jones TI, Jones PL, Shaw DWW, Blemker SS, Riem L, DuCharme O, Lemmers RJFL, van der Maarel SM, Wang LH, Tawil R, Statland JM, Tapscott SJ.",
+      "doi": "10.1093/hmg/ddae007",
+      "pageInfo": "698-708",
+      "journalInfo": {
+        "issue": "8",
+        "volume": "33",
+        "journalIssueId": 3752613,
+        "dateOfPublication": "2024 Apr",
+        "monthOfPublication": 4,
+        "yearOfPublication": 2024,
+        "journal": {
+          "medlineAbbreviation": "Hum Mol Genet",
+          "title": "Human molecular genetics",
+          "essn": "1460-2083",
+          "issn": "0964-6906",
+          "nlmid": "9208958",
+          "isoabbreviation": "Hum Mol Genet"
+        },
+        "printPublicationDate": "2024-04-01"
+      }
+    },
+    {
+      "id": "37747887",
+      "source": "MED",
+      "pubYear": "2023",
+      "title": "The transcription factor DUX4 orchestrates translational reprogramming by broadly suppressing translation efficiency and promoting expression of DUX4-induced mRNAs.",
+      "authorString": "Hamm DC, Paatela EM, Bennett SR, Wong CJ, Campbell AE, Wladyka CL, Smith AA, Jagannathan S, Hsieh AC, Tapscott SJ.",
+      "doi": "10.1371/journal.pbio.3002317",
+      "pageInfo": "e3002317",
+      "journalInfo": {
+        "issue": "9",
+        "volume": "21",
+        "journalIssueId": 3624868,
+        "dateOfPublication": "2023 Sep",
+        "monthOfPublication": 9,
+        "yearOfPublication": 2023,
+        "journal": {
+          "medlineAbbreviation": "PLoS Biol",
+          "title": "PLoS biology",
+          "essn": "1545-7885",
+          "issn": "1544-9173",
+          "nlmid": "101183755",
+          "isoabbreviation": "PLoS Biol"
+        },
+        "printPublicationDate": "2023-09-01"
+      }
+    },
+    {
+      "id": "34919696",
+      "source": "MED",
+      "pubYear": "2022",
+      "title": "Elevated plasma complement components in facioscapulohumeral dystrophy.",
+      "authorString": "Wong CJ, Wang L, Holers VM, Frazer-Abel A, van der Maarel SM, Tawil R, Statland JM, Tapscott SJ, ReSolve Network.",
+      "doi": "10.1093/hmg/ddab364",
+      "pageInfo": "1821-1829",
+      "journalInfo": {
+        "issue": "11",
+        "volume": "31",
+        "journalIssueId": 3371080,
+        "dateOfPublication": "2022 Jun",
+        "monthOfPublication": 6,
+        "yearOfPublication": 2022,
+        "journal": {
+          "medlineAbbreviation": "Hum Mol Genet",
+          "title": "Human molecular genetics",
+          "essn": "1460-2083",
+          "issn": "0964-6906",
+          "nlmid": "9208958",
+          "isoabbreviation": "Hum Mol Genet"
+        },
+        "printPublicationDate": "2022-06-01"
+      }
+    },
+    {
+      "id": "34888646",
+      "source": "MED",
+      "pubYear": "2022",
+      "title": "Canine DUXC: implications for DUX4 retrotransposition and preclinical models of FSHD.",
+      "authorString": "Wong CJ, Whiddon JL, Langford AT, Belleville AE, Tapscott SJ.",
+      "doi": "10.1093/hmg/ddab352",
+      "pageInfo": "1694-1704",
+      "journalInfo": {
+        "issue": "10",
+        "volume": "31",
+        "journalIssueId": 3361991,
+        "dateOfPublication": "2022 May",
+        "monthOfPublication": 5,
+        "yearOfPublication": 2022,
+        "journal": {
+          "medlineAbbreviation": "Hum Mol Genet",
+          "title": "Human molecular genetics",
+          "essn": "1460-2083",
+          "issn": "0964-6906",
+          "nlmid": "9208958",
+          "isoabbreviation": "Hum Mol Genet"
+        },
+        "printPublicationDate": "2022-05-01"
+      }
+    },
+    {
+      "id": "32083293",
+      "source": "MED",
+      "pubYear": "2020",
+      "title": "Longitudinal measures of RNA expression and disease activity in FSHD muscle biopsies.",
+      "authorString": "Wong CJ, Wang LH, Friedman SD, Shaw D, Campbell AE, Budech CB, Lewis LM, Lemmers RJFL, Statland JM, van der Maarel SM, Tawil RN, Tapscott SJ.",
+      "doi": "10.1093/hmg/ddaa031",
+      "pageInfo": "1030-1043",
+      "journalInfo": {
+        "issue": "6",
+        "volume": "29",
+        "journalIssueId": 2942139,
+        "dateOfPublication": "2020 Apr",
+        "monthOfPublication": 4,
+        "yearOfPublication": 2020,
+        "journal": {
+          "medlineAbbreviation": "Hum Mol Genet",
+          "title": "Human molecular genetics",
+          "essn": "1460-2083",
+          "issn": "0964-6906",
+          "nlmid": "9208958",
+          "isoabbreviation": "Hum Mol Genet"
+        },
+        "printPublicationDate": "2020-04-01"
+      }
+    },
+    {
+      "id": "31630170",
+      "source": "MED",
+      "pubYear": "2019",
+      "title": "DUX4-induced bidirectional HSATII satellite repeat transcripts form intranuclear double-stranded RNA foci in human cell models of FSHD.",
+      "authorString": "Shadle SC, Bennett SR, Wong CJ, Karreman NA, Campbell AE, van der Maarel SM, Bass BL, Tapscott SJ.",
+      "doi": "10.1093/hmg/ddz242",
+      "pageInfo": "3997-4011",
+      "journalInfo": {
+        "issue": "23",
+        "volume": "28",
+        "journalIssueId": 2903035,
+        "dateOfPublication": "2019 Dec",
+        "monthOfPublication": 12,
+        "yearOfPublication": 2019,
+        "journal": {
+          "medlineAbbreviation": "Hum Mol Genet",
+          "title": "Human molecular genetics",
+          "essn": "1460-2083",
+          "issn": "0964-6906",
+          "nlmid": "9208958",
+          "isoabbreviation": "Hum Mol Genet"
+        },
+        "printPublicationDate": "2019-12-01"
+      }
+    },
+    {
+      "id": "31722199",
+      "source": "MED",
+      "pubYear": "2019",
+      "title": "DUX4-Induced Histone Variants H3.X and H3.Y Mark DUX4 Target Genes for Expression.",
+      "authorString": "Resnick R, Wong CJ, Hamm DC, Bennett SR, Skene PJ, Hake SB, Henikoff S, van der Maarel SM, Tapscott SJ.",
+      "doi": "10.1016/j.celrep.2019.10.025",
+      "pageInfo": "1812-1820.e5",
+      "journalInfo": {
+        "issue": "7",
+        "volume": "29",
+        "journalIssueId": 2881969,
+        "dateOfPublication": "2019 Nov",
+        "monthOfPublication": 11,
+        "yearOfPublication": 2019,
+        "journal": {
+          "medlineAbbreviation": "Cell Rep",
+          "title": "Cell reports",
+          "essn": "2211-1247",
+          "issn": "2211-1247",
+          "nlmid": "101573691",
+          "isoabbreviation": "Cell Rep"
+        },
+        "printPublicationDate": "2019-11-01"
+      }
+    },
+    {
+      "id": "30312408",
+      "source": "MED",
+      "pubYear": "2019",
+      "title": "MRI-informed muscle biopsies correlate MRI with pathology and DUX4 target gene expression in FSHD.",
+      "authorString": "Wang LH, Friedman SD, Shaw D, Snider L, Wong CJ, Budech CB, Poliachik SL, Gove NE, Lewis LM, Campbell AE, Lemmers RJFL, Maarel SM, Tapscott SJ, Tawil RN.",
+      "doi": "10.1093/hmg/ddy364",
+      "pageInfo": "476-486",
+      "journalInfo": {
+        "issue": "3",
+        "volume": "28",
+        "journalIssueId": 2772588,
+        "dateOfPublication": "2019 Feb",
+        "monthOfPublication": 2,
+        "yearOfPublication": 2019,
+        "journal": {
+          "medlineAbbreviation": "Hum Mol Genet",
+          "title": "Human molecular genetics",
+          "essn": "1460-2083",
+          "issn": "0964-6906",
+          "nlmid": "9208958",
+          "isoabbreviation": "Hum Mol Genet"
+        },
+        "printPublicationDate": "2019-02-01"
+      }
+    },
+    {
+      "id": "29741619",
+      "source": "MED",
+      "pubYear": "2018",
+      "title": "Small noncoding RNAs in FSHD2 muscle cells reveal both DUX4- and SMCHD1-specific signatures.",
+      "authorString": "Lim JW, Wong CJ, Yao Z, Tawil R, van der Maarel SM, Miller DG, Tapscott SJ, Filippova GN.",
+      "doi": "10.1093/hmg/ddy173",
+      "pageInfo": "2644-2657",
+      "journalInfo": {
+        "issue": "15",
+        "volume": "27",
+        "journalIssueId": 2875449,
+        "dateOfPublication": "2018 Aug",
+        "monthOfPublication": 8,
+        "yearOfPublication": 2018,
+        "journal": {
+          "medlineAbbreviation": "Hum Mol Genet",
+          "title": "Human molecular genetics",
+          "essn": "1460-2083",
+          "issn": "0964-6906",
+          "nlmid": "9208958",
+          "isoabbreviation": "Hum Mol Genet"
+        },
+        "printPublicationDate": "2018-08-01"
+      }
+    },
+    {
+      "id": "28587678",
+      "source": "MED",
+      "pubYear": "2017",
+      "title": "SMCHD1 regulates a limited set of gene clusters on autosomal chromosomes.",
+      "authorString": "Mason AG, Slieker RC, Balog J, Lemmers RJLF, Wong CJ, Yao Z, Lim JW, Filippova GN, Ne E, Tawil R, Heijmans BT, Tapscott SJ, van der Maarel SM.",
+      "doi": "10.1186/s13395-017-0129-7",
+      "pageInfo": "12",
+      "journalInfo": {
+        "issue": "1",
+        "volume": "7",
+        "journalIssueId": 2562760,
+        "dateOfPublication": "2017 Jun",
+        "monthOfPublication": 6,
+        "yearOfPublication": 2017,
+        "journal": {
+          "medlineAbbreviation": "Skelet Muscle",
+          "title": "Skeletal muscle",
+          "essn": "2044-5040",
+          "issn": "2044-5040",
+          "nlmid": "101561193",
+          "isoabbreviation": "Skelet Muscle"
+        },
+        "printPublicationDate": "2017-06-01"
+      }
+    },
+    {
+      "id": "28459454",
+      "source": "MED",
+      "pubYear": "2017",
+      "title": "Conservation and innovation in the DUX4-family gene network.",
+      "authorString": "Whiddon JL, Langford AT, Wong CJ, Zhong JW, Tapscott SJ.",
+      "doi": "10.1038/ng.3846",
+      "pageInfo": "935-940",
+      "journalInfo": {
+        "issue": "6",
+        "volume": "49",
+        "journalIssueId": 2560558,
+        "dateOfPublication": "2017 Jun",
+        "monthOfPublication": 6,
+        "yearOfPublication": 2017,
+        "journal": {
+          "medlineAbbreviation": "Nat Genet",
+          "title": "Nature genetics",
+          "essn": "1546-1718",
+          "issn": "1061-4036",
+          "nlmid": "9216904",
+          "isoabbreviation": "Nat Genet"
+        },
+        "printPublicationDate": "2017-06-01"
+      }
+    },
+    {
+      "id": "28273136",
+      "source": "MED",
+      "pubYear": "2017",
+      "title": "DUX4-induced dsRNA and MYC mRNA stabilization activate apoptotic pathways in human cell models of facioscapulohumeral dystrophy.",
+      "authorString": "Shadle SC, Zhong JW, Campbell AE, Conerly ML, Jagannathan S, Wong CJ, Morello TD, van der Maarel SM, Tapscott SJ.",
+      "doi": "10.1371/journal.pgen.1006658",
+      "pageInfo": "e1006658",
+      "journalInfo": {
+        "issue": "3",
+        "volume": "13",
+        "journalIssueId": 2528336,
+        "dateOfPublication": "2017 Mar",
+        "monthOfPublication": 3,
+        "yearOfPublication": 2017,
+        "journal": {
+          "medlineAbbreviation": "PLoS Genet",
+          "title": "PLoS genetics",
+          "essn": "1553-7404",
+          "issn": "1553-7390",
+          "nlmid": "101239074",
+          "isoabbreviation": "PLoS Genet"
+        },
+        "printPublicationDate": "2017-03-01"
+      }
+    },
+    {
+      "id": "27795744",
+      "source": "MED",
+      "pubYear": "2016",
+      "title": "Global DNA methylation patterns in Barrett's esophagus, dysplastic Barrett's, and esophageal adenocarcinoma are associated with BMI, gender, and tobacco use.",
+      "authorString": "Kaz AM, Wong CJ, Varadan V, Willis JE, Chak A, Grady WM.",
+      "doi": "10.1186/s13148-016-0273-7",
+      "pageInfo": "111",
+      "journalInfo": {
+        "volume": "8",
+        "journalIssueId": 2361467,
+        "dateOfPublication": "2016 ",
+        "monthOfPublication": 0,
+        "yearOfPublication": 2016,
+        "journal": {
+          "medlineAbbreviation": "Clin Epigenetics",
+          "title": "Clinical epigenetics",
+          "essn": "1868-7083",
+          "issn": "1868-7083",
+          "nlmid": "101516977",
+          "isoabbreviation": "Clin Epigenetics"
+        },
+        "printPublicationDate": "2016-01-01"
+      }
+    },
+    {
+      "id": "27168458",
+      "source": "MED",
+      "pubYear": "2016",
+      "title": "A Molecular Clock Infers Heterogeneous Tissue Age Among Patients with Barrett's Esophagus.",
+      "authorString": "Curtius K, Wong CJ, Hazelton WD, Kaz AM, Chak A, Willis JE, Grady WM, Luebeck EG.",
+      "doi": "10.1371/journal.pcbi.1004919",
+      "pageInfo": "e1004919",
+      "journalInfo": {
+        "issue": "5",
+        "volume": "12",
+        "journalIssueId": 2403794,
+        "dateOfPublication": "2016 May",
+        "monthOfPublication": 5,
+        "yearOfPublication": 2016,
+        "journal": {
+          "medlineAbbreviation": "PLoS Comput Biol",
+          "title": "PLoS computational biology",
+          "essn": "1553-7358",
+          "issn": "1553-734X",
+          "nlmid": "101238922",
+          "isoabbreviation": "PLoS Comput Biol"
+        },
+        "printPublicationDate": "2016-05-01"
+      }
+    },
+    {
+      "id": "27142338",
+      "source": "MED",
+      "pubYear": "2016",
+      "title": "Prostate tumor DNA methylation is associated with cigarette smoking and adverse prostate cancer outcomes.",
+      "authorString": "Shui IM, Wong CJ, Zhao S, Kolb S, Ebot EM, Geybels MS, Rubicz R, Wright JL, Lin DW, Klotzle B, Bibikova M, Fan JB, Ostrander EA, Feng Z, Stanford JL.",
+      "doi": "10.1002/cncr.30045",
+      "pageInfo": "2168-2177",
+      "journalInfo": {
+        "issue": "14",
+        "volume": "122",
+        "journalIssueId": 2424521,
+        "dateOfPublication": "2016 Jul",
+        "monthOfPublication": 7,
+        "yearOfPublication": 2016,
+        "journal": {
+          "medlineAbbreviation": "Cancer",
+          "title": "Cancer",
+          "essn": "1097-0142",
+          "issn": "0008-543X",
+          "nlmid": "0374236",
+          "isoabbreviation": "Cancer"
+        },
+        "printPublicationDate": "2016-07-01"
+      }
+    },
+    {
+      "id": "26545406",
+      "source": "MED",
+      "pubYear": "2015",
+      "title": "Methylated B3GAT2 and ZNF793 Are Potential Detection Biomarkers for Barrett's Esophagus.",
+      "authorString": "Yu M, O'Leary RM, Kaz AM, Morris SM, Carter KT, Chak A, Chandar A, Willis JE, Moinova HR, Markowitz SD, Brenner DE, Anandabapasathy S, Westerhoff M, Wong CJ, Shaheen NJ, Chen Y, Barnholtz-Sloan JS, Grady WM.",
+      "doi": "10.1158/1055-9965.epi-15-0370",
+      "pageInfo": "1890-1897",
+      "journalInfo": {
+        "issue": "12",
+        "volume": "24",
+        "journalIssueId": 2349132,
+        "dateOfPublication": "2015 Dec",
+        "monthOfPublication": 12,
+        "yearOfPublication": 2015,
+        "journal": {
+          "medlineAbbreviation": "Cancer Epidemiol Biomarkers Prev",
+          "title": "Cancer epidemiology, biomarkers & prevention : a publication of the American Association for Cancer Research, cosponsored by the American Society of Preventive Oncology",
+          "essn": "1538-7755",
+          "issn": "1055-9965",
+          "nlmid": "9200608",
+          "isoabbreviation": "Cancer Epidemiol Biomarkers Prev"
+        },
+        "printPublicationDate": "2015-12-01"
+      }
+    },
+    {
+      "id": "26383847",
+      "source": "MED",
+      "pubYear": "2015",
+      "title": "Epigenomic profiling of DNA methylation in paired prostate cancer versus adjacent benign tissue.",
+      "authorString": "Geybels MS, Zhao S, Wong CJ, Bibikova M, Klotzle B, Wu M, Ostrander EA, Fan JB, Feng Z, Stanford JL.",
+      "doi": "10.1002/pros.23093",
+      "pageInfo": "1941-1950",
+      "journalInfo": {
+        "issue": "16",
+        "volume": "75",
+        "journalIssueId": 2334300,
+        "dateOfPublication": "2015 Dec",
+        "monthOfPublication": 12,
+        "yearOfPublication": 2015,
+        "journal": {
+          "medlineAbbreviation": "Prostate",
+          "title": "The Prostate",
+          "essn": "1097-0045",
+          "issn": "0270-4137",
+          "nlmid": "8101368",
+          "isoabbreviation": "Prostate"
+        },
+        "printPublicationDate": "2015-12-01"
+      }
+    },
+    {
+      "id": "24793120",
+      "source": "MED",
+      "pubYear": "2014",
+      "title": "Differences in DNA methylation signatures reveal multiple pathways of progression from adenoma to colorectal cancer.",
+      "authorString": "Luo Y, Wong CJ, Kaz AM, Dzieciatkowski S, Carter KT, Morris SM, Wang J, Willis JE, Makar KW, Ulrich CM, Lutterbaugh JD, Shrubsole MJ, Zheng W, Zheng W, Markowitz SD, Grady WM.",
+      "doi": "10.1053/j.gastro.2014.04.039",
+      "pageInfo": "418-29.e8",
+      "journalInfo": {
+        "issue": "2",
+        "volume": "147",
+        "journalIssueId": 2182234,
+        "dateOfPublication": "2014 Aug",
+        "monthOfPublication": 8,
+        "yearOfPublication": 2014,
+        "journal": {
+          "medlineAbbreviation": "Gastroenterology",
+          "title": "Gastroenterology",
+          "essn": "1528-0012",
+          "issn": "0016-5085",
+          "nlmid": "0374630",
+          "isoabbreviation": "Gastroenterology"
+        },
+        "printPublicationDate": "2014-08-01"
+      }
+    },
+    {
+      "id": "24413027",
+      "source": "MED",
+      "pubYear": "2014",
+      "title": "Patterns of DNA methylation in the normal colon vary by anatomical location, gender, and age.",
+      "authorString": "Kaz AM, Wong CJ, Dzieciatkowski S, Luo Y, Schoen RE, Grady WM.",
+      "doi": "10.4161/epi.27650",
+      "pageInfo": "492-502",
+      "journalInfo": {
+        "issue": "4",
+        "volume": "9",
+        "journalIssueId": 2150979,
+        "dateOfPublication": "2014 Apr",
+        "monthOfPublication": 4,
+        "yearOfPublication": 2014,
+        "journal": {
+          "medlineAbbreviation": "Epigenetics",
+          "title": "Epigenetics",
+          "essn": "1559-2308",
+          "issn": "1559-2294",
+          "nlmid": "101265293",
+          "isoabbreviation": "Epigenetics"
+        },
+        "printPublicationDate": "2014-04-01"
+      }
+    },
+    {
+      "id": "22139570",
+      "source": "MED",
+      "pubYear": "2011",
+      "title": "DNA methylation profiling in Barrett's esophagus and esophageal adenocarcinoma reveals unique methylation signatures and molecular subclasses.",
+      "authorString": "Kaz AM, Wong CJ, Luo Y, Virgin JB, Washington MK, Willis JE, Leidner RS, Chak A, Grady WM.",
+      "doi": "10.4161/epi.6.12.18199",
+      "pageInfo": "1403-1412",
+      "journalInfo": {
+        "issue": "12",
+        "volume": "6",
+        "journalIssueId": 1885393,
+        "dateOfPublication": "2011 Dec",
+        "monthOfPublication": 12,
+        "yearOfPublication": 2011,
+        "journal": {
+          "medlineAbbreviation": "Epigenetics",
+          "title": "Epigenetics",
+          "essn": "1559-2308",
+          "issn": "1559-2294",
+          "nlmid": "101265293",
+          "isoabbreviation": "Epigenetics"
+        },
+        "printPublicationDate": "2011-12-01"
+      }
+    },
+    {
+      "id": "19899135",
+      "source": "MED",
+      "pubYear": "2010",
+      "title": "Per-channel basis normalization methods for flow cytometry data.",
+      "authorString": "Hahne F, Khodabakhshi AH, Bashashati A, Wong CJ, Gascoyne RD, Weng AP, Seyfert-Margolis V, Bourcier K, Asare A, Lumley T, Gentleman R, Brinkman RR.",
+      "doi": "10.1002/cyto.a.20823",
+      "pageInfo": "121-131",
+      "journalInfo": {
+        "issue": "2",
+        "volume": "77",
+        "journalIssueId": 1692543,
+        "dateOfPublication": "2010 Feb",
+        "monthOfPublication": 2,
+        "yearOfPublication": 2010,
+        "journal": {
+          "medlineAbbreviation": "Cytometry A",
+          "title": "Cytometry. Part A : the journal of the International Society for Analytical Cytology",
+          "essn": "1552-4930",
+          "issn": "1552-4922",
+          "nlmid": "101235694",
+          "isoabbreviation": "Cytometry A"
+        },
+        "printPublicationDate": "2010-02-01"
+      }
+    }
+  ],
+  "corrections": [
+    {
+      "id": "28265303",
+      "source": "MED",
+      "pubYear": "2017",
+      "title": "Erratum to: Global DNA methylation patterns in Barrett's esophagus, dysplastic Barrett's, and esophageal adenocarcinoma are associated with BMI, gender, and tobacco use.",
+      "authorString": "Kaz AM, Wong CJ, Varadan V, Willis JE, Chak A, Grady WM.",
+      "doi": "10.1186/s13148-017-0324-8",
+      "pageInfo": "23",
+      "journalInfo": {
+        "volume": "9",
+        "journalIssueId": 2797075,
+        "dateOfPublication": "2017",
+        "monthOfPublication": 0,
+        "yearOfPublication": 2017,
+        "journal": {
+          "medlineAbbreviation": "Clin Epigenetics",
+          "title": "Clinical epigenetics",
+          "essn": "1868-7083",
+          "issn": "1868-7083",
+          "nlmid": "101516977",
+          "isoabbreviation": "Clin Epigenetics"
+        },
+        "printPublicationDate": "2017-01-01"
+      }
+    }
+  ]
+}
