@@ -539,3 +539,12 @@ footer div {
 .career-links .button {
   margin-top: 0;
 }
+
+.home .button {
+  background: var(--blue);
+  color: var(--ink);
+  font-weight: 700;
+}
+.home .button:hover {
+  background: #92d4c9;
+}
