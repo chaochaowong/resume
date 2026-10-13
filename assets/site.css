@@ -69,6 +69,7 @@ footer {
 }
 nav {
   display: flex;
+  align-items: center;
   flex-wrap: wrap;
   gap: 26px;
 }
@@ -77,6 +78,24 @@ nav a {
   text-decoration: none;
   padding: 10px 0;
   color: var(--ink);
+}
+.nav-socials {
+  display: inline-flex;
+  align-items: center;
+  gap: 16px;
+}
+nav .social-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 24px;
+  min-height: 44px;
+}
+.social-link img {
+  display: block;
+  width: 22px;
+  height: 22px;
+  object-fit: contain;
 }
 nav a[aria-current] {
   border-bottom: 2px solid var(--umber);
