@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Resume | Chao-Jen Wong</title>
+    <meta name="description" content="Chao-Jen Wong’s resume: bioinformatics, genomics, scientific software, and workflow engineering." />
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="assets/site.css" />
+    <link rel="stylesheet" href="assets/resume.css" />
+</head>
+<body>
+    <a class="skip" href="#main">Skip to resume</a>
+    <header class="site-header">
+      <a class="monogram" href="index.html" aria-label="CJW — home"
+        >CJW<span></span
+      ></a>
+      <nav aria-label="Main navigation">
+        <a href="index.html">About</a>
+        <a href="publications.html">Publications</a>
+        <a href="education.html">Education</a>
+        <a href="open-resources.html">Open resources</a>
+        <a href="resume.html" aria-current="page">Resume</a>
+        <a class="print-resume" href="cjw-resume-bioinfo-2026.html" target="_blank" rel="noopener noreferrer">Print / save PDF</a>
+        <span class="nav-socials">
+          <a class="social-link" href="https://github.com/chaochaowong" target="_blank" rel="noopener noreferrer" aria-label="GitHub profile" title="GitHub">
+            <img src="assets/github.svg" width="22" height="22" alt="" />
+          </a>
+          <a class="social-link" href="https://www.linkedin.com/in/chao-jen-wong/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn profile" title="LinkedIn">
+            <img src="assets/linkedin.png" width="22" height="22" alt="" />
+          </a>
+        </span>
+      </nav>
+    </header>
+
+    <main id="main" class="page-container">
+        <div class="header-section">
+            <h1>Chao-Jen Wong, Ph.D.</h1>
+            <div class="contact-bar">
+                <span><a href="https://chaochaowong.github.io/" target="_blank" rel="noopener noreferrer">chaochaowong.github.io</a></span>
+                <span><a href="https://www.linkedin.com/in/chao-jen-wong/" target="_blank" rel="noopener noreferrer">LinkedIn</a></span>
+                <span><a href="https://github.com/chaochaowong" target="_blank" rel="noopener noreferrer">GitHub</a></span>
+                <span>Seattle, Washington</span>
+            </div>
+        </div>
+
+        <div class="summary">Senior bioinformatician with 15+ years of experience in genomic and epigenomic data analysis, workflow engineering, and scientific support for sequencing-based research. Expertise in PacBio long-read WGS, CUT&RUN, multi-omic NGS data analysis, Nextflow pipeline development, and integrating LLM-assisted tools into bioinformatics workflows. Experienced in partnering with wet-lab scientists and collaborators to translate experimental questions into sequencing strategies, robust QC and analysis, biomarker discovery, and biological interpretation.</div>
+
+        <h2>Technical Skills</h2>
+        <table class="skills-table">
+            <tr><td class="skill-cat">Languages:</td><td>R (Package Development, Bioconductor), Python (Pandas, Scikit-Learn, TensorFlow), SQL, MATLAB, Bash</td></tr>
+            <tr><td class="skill-cat">Workflows:</td><td>Nextflow, Agentic workflow, Git, Docker/Singularity, AWS/EC2, HPC</td></tr>
+            <tr><td class="skill-cat">Genomics:</td><td>Fiber-seq, long-reads, scRNA-seq, RNA-seq, ATAC-seq, ChIP-seq, CUT&RUN, Ribo-seq, DNA methylation, variant calling, proteomics, chromatin structure</td></tr>
+        </table>
+
+        <h2>Professional Experience</h2>
+        <div class="job-entry">
+            <div class="job-header"><span>Sr. Bioinformatician</span><span>Oct 2023 – Present</span></div>
+            <div class="company">Seattle Children's Research Institute, Seattle, WA</div>
+            <ul>
+                <li>Architected and extended the open-source Nextflow nf-core/pacvar (v1.1.0) pipeline—an industry-grade workflow ecosystem trusted across pharma and academia—enabling comprehensive variant calling and multi-omic methylation profiling for PacBio long-read WGS data.</li>
+                <li>Engineered and validated an AI-assisted long-read WGS diagnostic workflow for pediatric cancers, consolidating months-long testing across 10+ molecular assays into a single rapid test that increased diagnostic yield and enabled timely precision treatment decisions.</li>
+                <li>Uncovered the epigenetic adaptational landscape of sarcoma cells under BRD4 inhibition, identifying H3K27ac recruitment as the key mechanism triggering downstream mesenchymal shift and axonogenesis.</li>
+                <li>Challenged a decades-old paradigm in cancer therapy by proving anthracyclines suppress aggressive leukemias through translation inhibition rather than DNA damage—a discovery enabled by integrating multi-omic and high-throughput drug screening datasets.</li>
+                <li>Engineered R packages like <em>talusR</em> and <em>peakable</em> to automate proteomics profiling and CUT&RUN replicate validation, eliminating technical noise and preventing false-positive biological conclusions in multi-omic workflows.</li>
+            </ul>
+        </div>
+        
+        <div class="job-entry">
+            <div class="job-header"><span>Bioinformatician III</span><span>Oct 2015 – Jun 2023</span></div>
+            <div class="company">Tapscott Lab, Human Biology Department, Fred Hutchinson Cancer Center, Seattle, WA</div>
+            <ul>
+                <li>Led data-driven research for a cross-functional initiative that discovered the primary disease progression mechanisms in facioscapulohumeral muscular dystrophy (FSHD), published in Human Molecular Genetics.</li>
+                <li>Identified the first validated panels of gene signatures representing FSHD molecular activity, setting the industry standard for post-therapeutic clinical trial measurements.</li>
+                <li>Pioneered research demonstrating immune cell infiltration in FSHD-affected muscle, shifting the scientific understanding of the disease's systemic progression.</li>
+                <li>Founded and led a peer-to-peer data science community at Fred Hutch, growing membership from 32 to over 250 scientists within a year.</li>
+            </ul>
+        </div>
+        
+        <div class="job-entry">
+            <div class="job-header"><span>Bioinformatics Analyst II</span><span>Oct 2011 – Oct 2015</span></div>
+            <div class="company">Grady Lab, Clinical Research Division, Fred Hutch Cancer Center, Seattle, WA</div>
+            <ul>
+                <li>Contributed to the first published study reporting human colon DNA methylation profiles and subtype classification in colon adenocarcinoma, using Illumina 450K array-based methylation profiling. </li>
+                <li>Collaborated on two peer-reviewed studies on DNA methylation-based modeling of the human biological clock and epidemiologic analysis of cigarette smoking associations with prostate cancer outcomes.</li>
+            </ul>
+        </div>
+
+        <div class="job-entry">
+            <div class="job-header"><span>Bioconductor Core Developer</span><span>Sep 2008 – Sep 2011</span></div>
+            <div class="company">Gentleman Lab, Computational Biology Program, Fred Hutchinson Cancer Center, Seattle, WA</div>
+            <ul>
+                <li>Contributed to the core infrastructure of Bioconductor for genomic data analysis and visualization.</li>
+                <li>Developed novel algorithms for multi-channel flow cytometry normalization using functional data analysis.</li>
+                <li>Served as a lead reviewer for 50+ Bioconductor package submissions, enforcing rigorous standards for statistical validity and software quality.</li>
+            </ul>
+        </div>
+
+        <div class="job-entry">
+            <div class="job-header"><span>Postdoctoral Researcher</span><span>Aug 2007 – May 2008</span></div>
+            <div class="company">San Diego State University, San Diego, CA</div>
+            <ul>
+                <li>Research fields included numerical methods for solving partial differential equations and microarray analysis investigating associations between antidiabetic medications and cardiovascular disease.</li>
+            </ul>
+        </div>
+
+        <div class="job-entry">
+            <div class="job-header"><span>Analytic Consultant</span><span>Apr 2006 – Jan 2007</span></div>
+            <div class="company">Pacific Nanotechnology (Contract), Irvine, CA</div>
+            <ul><li>Developed atomic force microscopy tip deconvolution and image reconstruction algorithms to correct imaging artifacts caused by imperfect probe-tip geometry, resulting in a peer-reviewed publication.</li></ul>
+        </div>
+
+        <div class="job-entry">
+            <div class="job-header"><span>Academic Part-Time Engineer</span><span>Apr 2000 – Sep 2005</span></div>
+            <div class="company">Jet Propulsion Laboratory, Pasadena, CA</div>
+            <ul><li>Developed high-fidelity Telecom Forecaster Predictor (TFP) software in MATLAB to simulate deep-space communication links for NASA JPL missions, including the Mars Exploration Rovers Spirit and Opportunity.</li>
+                <li>Co-authored volumes in JPL's Deep Space Communications and Navigation Center of Excellence (DESCANSO) book series.</li></ul>
+        </div>
+
+        <h2>Education</h2>
+        <div class="job-entry">
+            <div class="job-header"><span>Ph.D. & M.S. in Mathematics</span><span>2001 – 2006</span></div>
+            <div class="company">Claremont Graduate University, Claremont, CA</div>
+            <div class="education-detail">Relevant coursework: statistical inference, time series analysis, and partial differential equations.</div>
+            <div class="education-detail">Thesis: Simulation of Immobilized Enzyme Kinetics and Transport in Sessile Hydrogen Drops. Adviser: Ali Nadim.</div>
+        </div>
+        <div class="job-entry">
+            <div class="job-header"><span>M.A. & B.A. in Applied Mathematics</span><span>1996 – 2000</span></div>
+            <div class="company">California State University, Fullerton, CA</div>
+        </div>
+
+        <h2 class="publications-heading"><span>Recent Publications</span><span class="citation-metrics"><strong>1,955 citations</strong> · h-index: <strong>19</strong></span></h2>
+        <div class="pub-item">• Sadeeshkumar H, Wong CJ, et al. Anthracyclines target the chromatin-translation axis independent of DNA damage. Manuscript under review at <em>Nature</em>.</div>
+        <div class="pub-item">• Wong CJ, et al. Regional and bilateral MRI and gene signatures in facioscapulohumeral dystrophy. <em>Human Molecular Genetics</em>. 2024;33(8):698-708.</div>
+        <div class="pub-item">• Hamm DC, Paatela EM, Bennett SR, Wong CJ, et al. The transcription factor DUX4 orchestrates translational reprogramming. <em>PLOS Biology</em>. 2023;21(9):e3002317.</div>
+        <div class="pub-item">• Wong CJ, et al. Canine DUXC: implications for DUX4 retrotransposition and preclinical models of FSHD. <em>Human Molecular Genetics</em>. 2022;31(10):1694-1704.</div>
+
+        <div class="bottom-grid">
+            <div class="bottom-column">
+                <h2 style="margin-top:0;">Professional Activities</h2>
+                <div class="activity-item">• Nextflow Ambassador, 2026.</div>
+                <div class="activity-item">• Poster presenter, Nextflow Summit Boston, 2026.</div>
+                <div class="activity-item">• Contributor to nf-core and participant in Nextflow Hackathons, 2024-2026.</div>
+            </div>
+            <div class="bottom-column">
+                <h2 style="margin-top:0;">Coursera Certifications</h2>
+                <div class="cert-item">• Sequence Models (DeepLearning.AI)</div>
+                <div class="cert-item">• Convolutional Neural Networks (DeepLearning.AI)</div>
+                <div class="cert-item">• Neural Networks and Deep Learning (DeepLearning.AI)</div>
+                <div class="cert-item">• Applied Machine Learning in Python (U. Michigan)</div>
+                <div class="cert-item">• SQL Basics for Data Science Specialization (UC Davis)</div>
+            </div>
+        </div>
+    </main>
+
+</body>
+</html>

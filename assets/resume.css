@@ -1,0 +1,47 @@
+* { box-sizing: border-box; }
+:root { color-scheme: light; }
+body { margin: 0; background: #f2fce8; color: #293932; font: 16px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+a { color: #5e4017; text-underline-offset: 4px; }
+a:focus-visible { outline: 3px solid #5e4017; outline-offset: 4px; }
+.skip { position: absolute; top: -100px; left: 16px; padding: 10px; background: white; }
+.skip:focus { top: 10px; }
+.site-header .print-resume { padding: 10px 14px; background: var(--blue); color: var(--ink); font-weight: 600; }
+.site-header .print-resume:hover { background: #92d4c9; }
+.page-container { max-width: 960px; margin: 0 auto 48px; padding: 40px 48px; background: #fcfdf8; overflow-wrap: anywhere; }
+.header-section { border-bottom: 2px solid #c9d6c2; padding-bottom: 24px; }
+h1 { margin: 0 0 16px; font: 400 clamp(30px, 5vw, 46px)/1.2 Georgia, serif; }
+.contact-bar { display: flex; flex-wrap: wrap; gap: 8px 24px; color: #536459; }
+.contact-bar a { display: inline-flex; min-height: 44px; align-items: center; }
+.contact-bar span { display: inline-flex; align-items: center; }
+.summary { margin: 28px 0; }
+h2 { font-size: 20px; line-height: 1.35; color: #5e4017; border-bottom: 1px solid #c9d6c2; padding-bottom: 10px; margin: 36px 0 20px; }
+.job-entry { margin-bottom: 28px; }
+.job-header { display: flex; justify-content: space-between; align-items: baseline; gap: 8px 20px; font-weight: 700; }
+.job-header span:last-child { font-size: 14px; color: #536459; white-space: nowrap; }
+.company { color: #536459; margin: 6px 0 10px; }
+ul { padding-left: 22px; margin: 12px 0; }
+li { margin-bottom: 12px; }
+.skills-table { width: 100%; border-collapse: collapse; }
+.skills-table td { vertical-align: top; padding: 8px 0; }
+.skills-table .skill-cat { width: 115px; padding-right: 20px; font-weight: 700; }
+.publications-heading { display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap; gap: 8px 20px; }
+.citation-metrics { margin-left: auto; font-size: 14px; font-weight: normal; color: #536459; }
+.pub-item, .activity-item, .cert-item { margin-bottom: 14px; }
+.education-detail { color: #536459; margin-top: 8px; }
+.bottom-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 32px; margin-top: 36px; }
+@media (max-width: 600px) {
+    .page-container { padding: 28px 20px; margin-bottom: 0; }
+    .job-header { flex-direction: column; gap: 4px; }
+    .skills-table, .skills-table tbody, .skills-table tr, .skills-table td { display: block; }
+    .skills-table tr { margin-bottom: 14px; }
+    .skills-table td { padding: 0; }
+    .skills-table .skill-cat { width: auto; padding: 0 0 4px; }
+    .bottom-grid { grid-template-columns: 1fr; gap: 24px; }
+    .citation-metrics { margin-left: 0; }
+}
+@media print {
+    body { background: white; font-size: 10pt; }
+    .site-header, .skip { display: none; }
+    .page-container { padding: 0; margin: 0; max-width: none; }
+    h2 { break-after: avoid; }
+}
